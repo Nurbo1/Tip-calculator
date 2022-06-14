@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="logo">
+    <h2>S P L I</h2>
+    <h2>T T E R</h2>
+  </div>
+
+  <div class="box">
+    <div class="input-box">
+      <h3>Bill</h3>
+      <input class="bill-box" type="text" id="money" name="money"><br>
+      <h3>Select Tip %</h3>
+
+      <button class="btn" type="button" id="5" name="button">5%</button>
+      <button class="btn" type="button" id="10" name="button">10%</button>
+      <button class="btn" type="button" id="15" name="button">15%</button>
+      <br>
+      <button class="btn" type="button" id="25" name="button">25%</button>
+      <button class="btn" type="button" id="50" name="button">50%</button>
+
+      <input class="select-input" type="text" id="percentage" name="percentage"><br>
+      </button>
+
+      <div class="people-number">
+        <h3>Number of People</h3>
+      </div>
+      <div class="alert hide">
+        <h3 id="alert-h3">Can't be zero</h3>
+      </div>
+      <br>
+      <input class="people-input" type="text" id="people" name="people"><br>
+
+    </div>
+
+    <div class="result-box">
+      <div>
+        <div class="r1">
+          <h3 class="res-h3">Tip Amount</h3>
+          <p class="res-p">/ person</p>
+        </div>
+        <div class="r2">
+          <h1 id="tip-amount">$0.00</h1>
+
+        </div>
+      </div>
+      <div class="hello">
+        <div class="z3">
+          <h3 class="res-h3">Total</h3>
+          <p class="res-p">/ person</p>
+        </div>
+        <div class="z4">
+          <h1 id="total-amount">$0.00</h1>
+        </div>
+
+      </div>
+
+
+      <button class="reset" type="submit" name="button">RESET</button>
+    </div>
+
+
+
+
+  </div>
+
+
+
+  <div class="attribution">
+    <h4>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://t.me/n_mukhametzhan" target="_blank">Nurbol</a>!</h4>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
