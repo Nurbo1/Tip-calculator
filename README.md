@@ -1,4 +1,4 @@
-# Frontend Mentor - Tip calculator app
+# Frontend Mentor - Tip calculator app  https://nurbo1.github.io/Tip-calculator/
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
